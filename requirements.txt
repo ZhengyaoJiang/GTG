@@ -1,0 +1,9 @@
+gym>=0.14.0
+gitpython>=2.1
+gym_minigrid==1.0.1
+numpy==1.18.5
+matplotlib
+torch-geometric==1.6.1
+torch==1.7.0
+MinAtar==1.0.6
+pandas==0.25.1
