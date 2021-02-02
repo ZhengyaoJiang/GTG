@@ -1,5 +1,10 @@
 # R-GCN-GTG
-Source code of "Grid-to-Graph: Flexible Spatial Relational Inductive Biasesfor Reinforcement Learning".
+Source code of "Grid-to-Graph: Flexible Spatial Relational Inductive Biases for Reinforcement Learning".
+
+![](./resources/architecture.png)
+
+> In this work, we show that by leveraging the relational graph of a Relational Graph Convolution Network (R-GCN), we can imbue agents with flexible relational inductive biases. Based on this insight, we propose Grid-to-Graph (GTG), a mapping from grid structures to relational graphs that carry useful spatial relational inductive biases when processed through R-GCN.
+
 
 Implemented and tested under python 3.6 in Linux.
 The implementation of IMPALA is based on [torchbeast](https://github.com/facebookresearch/torchbeast).
