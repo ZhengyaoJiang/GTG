@@ -1,5 +1,5 @@
 # R-GCN-GTG
-Source code of "Grid-to-Graph: Flexible Spatial Relational Inductive Biases for Reinforcement Learning".
+Source code of "[Grid-to-Graph: Flexible Spatial Relational Inductive Biases for Reinforcement Learning](https://arxiv.org/abs/2102.04220)".
 
 ![](./resources/architecture.png)
 
