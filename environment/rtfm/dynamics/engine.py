@@ -6,7 +6,7 @@
 
 import random
 
-from enviornment.rtfm.dynamics import event as E
+from environment.rtfm.dynamics import event as E
 
 
 class Engine:

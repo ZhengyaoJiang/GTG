@@ -5,8 +5,8 @@ from gym.spaces import Box
 import matplotlib.pyplot as plt
 from collections import deque
 
-from enviornment.box.boxworld_gen import *
-from enviornment.minatar import Spec
+from environment.box.boxworld_gen import *
+from environment.minatar import Spec
 
 class BoxWorld(gym.Env):
     """Boxworld representation

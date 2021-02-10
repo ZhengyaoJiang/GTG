@@ -1,7 +1,7 @@
 from gym import register
 from agent import Predicate
 from agent.util import ind_dict2list, rotate_vec2d, concat_vkb
-from enviornment.box.boxworld_gen import color2index, all_colors
+from environment.box.boxworld_gen import color2index, all_colors
 import itertools as itt
 from gym_minigrid.minigrid import *
 
@@ -505,7 +505,7 @@ class ClosedLavaCrossingEnv(MiniGridEnv):
 
 register(
     id='MiniGrid-LavaCrossingClosed-v0',
-    entry_point='agent.enviornment.minigrid:ClosedLavaCrossingEnv'
+    entry_point='agent.environment.minigrid:ClosedLavaCrossingEnv'
 )
 
 class MoveToActionWrapper(gym.ActionWrapper):

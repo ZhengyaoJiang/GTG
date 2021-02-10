@@ -7,12 +7,12 @@
 import random
 import torch
 import itertools
-from enviornment.rtfm.dynamics import item as I, element as types
-from enviornment.rtfm.dynamics import monster as M
-from enviornment.rtfm import RoomTask
-from enviornment.rtfm import utils
-from enviornment.rtfm import featurizer as F
-from enviornment.rtfm.tasks import groups_templates
+from environment.rtfm.dynamics import item as I, element as types
+from environment.rtfm.dynamics import monster as M
+from environment.rtfm import RoomTask
+from environment.rtfm import utils
+from environment.rtfm import featurizer as F
+from environment.rtfm.tasks import groups_templates
 
 ALL_TYPES = [types.Cold, types.Fire, types.Lightning, types.Poison]
 

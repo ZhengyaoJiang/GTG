@@ -6,7 +6,7 @@
 
 import random
 
-from enviornment.rtfm.dynamics.monster import BaseMonster
+from environment.rtfm.dynamics.monster import BaseMonster
 
 
 class RandomMonster(BaseMonster):

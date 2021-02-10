@@ -6,8 +6,8 @@
 
 import random
 
-from enviornment.rtfm.dynamics import world_object as O, item as I, stats as S, inventory as V, encumbrance, dice as D
-from enviornment.rtfm.dynamics import event as E
+from environment.rtfm.dynamics import world_object as O, item as I, stats as S, inventory as V, encumbrance, dice as D
+from environment.rtfm.dynamics import event as E
 
 
 class BaseMonster(O.WorldObject):

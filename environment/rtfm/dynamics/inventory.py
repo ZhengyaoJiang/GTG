@@ -5,7 +5,7 @@
 # LICENSE file in the root directory of this source tree.
 
 import copy
-from enviornment.rtfm.dynamics import item as I
+from environment.rtfm.dynamics import item as I
 from collections import defaultdict
 
 

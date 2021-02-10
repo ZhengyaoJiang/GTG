@@ -1,4 +1,4 @@
-from enviornment.box.box_world_env import BoxWorld
+from environment.box.box_world_env import BoxWorld
 import numpy as np
 
 class BoxKBEnv(BoxWorld):

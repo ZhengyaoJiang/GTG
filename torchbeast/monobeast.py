@@ -25,7 +25,7 @@ from torchbeast.core import file_writer
 from torchbeast.core import prof
 from torchbeast.core import vtrace
 
-from enviornment.minigrid import *
+from environment.minigrid import *
 from gym_minigrid.wrappers import FullyObsWrapper, ReseedWrapper
 from typing import List
 
@@ -768,13 +768,13 @@ def create_gymenv(flags):
         if flags.env == "MiniGrid-LavaCrossingClosed-v0":
             env = ProtalWrapper(env, portal_pairs)
     elif env_type == "minatar":
-        from enviornment.minatar import MinAtarEnv
+        from environment.minatar import MinAtarEnv
         env = MinAtarEnv(flags.env, flags.sticky_prob)
     elif env_type == "random":
-        from enviornment.random import RandomEnv
+        from environment.random import RandomEnv
         env = RandomEnv()
     elif env_type == "blockworld":
-        from enviornment.blockworld import BlockEnv, GridActionWrapper, BlockActionWrapper
+        from environment.blockworld import BlockEnv, GridActionWrapper, BlockActionWrapper
         state_block_spec = False if flags.state != "block" and flags.action == "propositional" else True
         env = BlockEnv(flags.env, nb_blocks=flags.nb_blocks, variation=flags.variation,
                        rand_env=flags.rand_env, state_block_spec=state_block_spec)
@@ -783,7 +783,7 @@ def create_gymenv(flags):
         if flags.state == "block" and flags.action == "relational":
             env = BlockActionWrapper(env)
     elif env_type in ["rtfm"]:
-        from enviornment.rtfmkbenv import RTFMEnv, RTFMAbstractEnv, RTFMOneHopEnv
+        from environment.rtfmkbenv import RTFMEnv, RTFMAbstractEnv, RTFMOneHopEnv
         with_vkb = False if flags.agent in ["CNN", "MHA"] or flags.disable_wiki else True
         if with_vkb:
             if flags.env == "rtfm":
@@ -801,7 +801,7 @@ def create_gymenv(flags):
         if flags.state == "absolute":
             env = AbsoluteVKBWrapper(env, flags.bg_code, portal_pairs)
         elif flags.state == "block":
-            from enviornment.blockworld import BlockVKBWarpper
+            from environment.blockworld import BlockVKBWarpper
             env = BlockVKBWarpper(env)
         else:
             raise ValueError(f"state encoding cannot be {flags.state}")

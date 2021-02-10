@@ -6,8 +6,8 @@
 
 import random
 
-from enviornment.rtfm.dynamics import event as E
-from enviornment.rtfm.dynamics.monster import BaseMonster
+from environment.rtfm.dynamics import event as E
+from environment.rtfm.dynamics.monster import BaseMonster
 
 
 class HostileMonster(BaseMonster):

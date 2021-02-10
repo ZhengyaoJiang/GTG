@@ -4,9 +4,9 @@
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
 
-from enviornment.rtfm.tasks.task import Task
-from enviornment.rtfm.dynamics import world as W
-from enviornment.rtfm import featurizer as F
+from environment.rtfm.tasks.task import Task
+from environment.rtfm.dynamics import world as W
+from environment.rtfm import featurizer as F
 
 
 class RoomTask(Task):

@@ -6,10 +6,10 @@
 
 import gym
 from vocab import Vocab
-from enviornment.rtfm import utils
-from enviornment.rtfm import featurizer as F
-from enviornment.rtfm.dynamics import world as W, engine as E, world_object as O
-from enviornment.rtfm.dynamics import monster as M
+from environment.rtfm import utils
+from environment.rtfm import featurizer as F
+from environment.rtfm.dynamics import world as W, engine as E, world_object as O
+from environment.rtfm.dynamics import monster as M
 
 
 class Task(gym.Env):

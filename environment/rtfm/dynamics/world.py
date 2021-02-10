@@ -9,8 +9,8 @@ import numpy as np
 from collections import defaultdict
 from itertools import combinations
 
-from enviornment.rtfm.dynamics import world_object as O, item as I
-from enviornment.rtfm.dynamics import monster as M
+from environment.rtfm.dynamics import world_object as O, item as I
+from environment.rtfm.dynamics import monster as M
 
 
 class World:

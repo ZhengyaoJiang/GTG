@@ -9,8 +9,8 @@ import torch
 import revtok
 import random
 from pprint import pprint
-from enviornment.rtfm.dynamics import world_object as O
-from enviornment.rtfm.dynamics import event as E, monster as M
+from environment.rtfm.dynamics import world_object as O
+from environment.rtfm.dynamics import event as E, monster as M
 
 
 class Featurizer:
