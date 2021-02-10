@@ -34,3 +34,13 @@ python torchbeast/monobeast.py --env=breakout --agent=CNN --cnn_code=2c2f --embe
 ```
 python torchbeast/monobeast.py --env=breakout --agent=NLM --xpid=T-3-1 
 ```
+
+### Citation
+```
+@inproceedings{jiang2021gtg,
+  title={Grid-to-Graph: Flexible Spatial Relational Inductive Biases for Reinforcement Learning},
+  author={Jiang, Zhengyao and Minervin, Pasquale and Jiang, Minqi and Rockt{\"a}schel, Tim},
+  booktitle={AAMAS 2021},
+  year={2021}
+}
+```
