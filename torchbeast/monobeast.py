@@ -768,7 +768,7 @@ def create_gymenv(flags):
         if flags.env == "MiniGrid-LavaCrossingClosed-v0":
             env = ProtalWrapper(env, portal_pairs)
     elif env_type == "minatar":
-        from environment.minatar import MinAtarEnv
+        from environment.minatarwarpper import MinAtarEnv
         env = MinAtarEnv(flags.env, flags.sticky_prob)
     elif env_type == "random":
         from environment.random import RandomEnv

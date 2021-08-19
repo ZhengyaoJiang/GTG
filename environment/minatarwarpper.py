@@ -1,4 +1,4 @@
-from minatar import Environment
+from environment.minatar import Environment
 from .minigrid import *
 import gym
 import numpy as np
