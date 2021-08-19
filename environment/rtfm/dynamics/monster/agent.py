@@ -8,7 +8,7 @@ import getch
 
 from environment.rtfm.dynamics import item as I
 from environment.rtfm.dynamics import event as E
-from environment.rtfm.dynamics.monster import BaseMonster
+from environment.rtfm.dynamics.monster.base import BaseMonster
 
 
 class Agent(BaseMonster):

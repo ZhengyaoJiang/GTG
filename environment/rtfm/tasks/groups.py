@@ -9,7 +9,7 @@ import torch
 import itertools
 from environment.rtfm.dynamics import item as I, element as types
 from environment.rtfm.dynamics import monster as M
-from environment.rtfm import RoomTask
+from environment.rtfm.tasks.room import RoomTask
 from environment.rtfm import utils
 from environment.rtfm import featurizer as F
 from environment.rtfm.tasks import groups_templates

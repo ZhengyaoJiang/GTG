@@ -5,6 +5,7 @@
 # LICENSE file in the root directory of this source tree.
 
 from .base import *
+from .agent import *
 from .hostile import *
 from .random import *
 from .stationary import *

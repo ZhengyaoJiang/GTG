@@ -1,7 +1,8 @@
 from environment.rtfm.tasks.groups import Groups, F
-from environment.rtfm.dynamics import Wall
+from environment.rtfm.dynamics.world_object import Wall
 from environment.rtfm.dynamics.monster import HostileMonster, Agent
-from environment.rtfm.dynamics import BaseItem
+from environment.rtfm.dynamics.item.base_item import BaseItem
+from environment.rtfm.dynamics.element import *
 from agent.util import join_vkb_lists, stack_vkb
 
 import gym
